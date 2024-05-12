@@ -1,11 +1,8 @@
 import React from "react";
-import Image from "next/image";
-// import { faker, simpleFaker } from '@faker-js/faker';
-// // or, if desiring a different locale
-// // import { fakerDE as faker } from '@faker-js/faker';
-// const f = simpleFaker.number.int(10); // 4
-// const randomName = faker.person.fullName(); // Rowan Nikolaus
-// const randomEmail = faker.internet.email(); // Kassandra.Haley@erich.biz
+import pen from '../../public/pen.webp'
+import amish from '../../public/amish.webp'
+import buddhist from '../../public/buddhist.webp'
+import ketchup from '../../public/ketchup.webp'
 function ProductCard({ product }) {
   function numberWithCommas(x) {
     return x.toString().replace(/\B(?=(\d{3})+(?!\d))/g, ",");
@@ -38,25 +35,25 @@ const product_list = [
     name: "Pen",
     price: 1000,
     desc: "Sell me this fucking pen right here.",
-    image: <Image src="/pen.webp" alt="Shoes" loading="eager"  width={500} height={500} />,
+    image: <img src={pen.src} alt="Shoes" loading="eager"  width={500} height={500} />,
   },
   {
     name: "Ketchup",
     price: 5,
     desc: "Can I get some ketchup, please?",
-    image: <Image src="/ketchup.webp" alt="Shoes" loading="lazy" width={500} height={500} />,
+    image: <img src={ketchup.src} alt="Shoes" loading="lazy" width={500} height={500} />,
   },
   {
     name: "An Amish Guy",
     price: 3100,
     desc: "I'm not talking 'bout Buddhist or Amish",
-    image: <Image src="/amish.webp" alt="Shoes" loading="lazy" width={774} height={824} />,
+    image: <img src={amish.src} alt="Shoes" loading="lazy" width={774} height={824} />,
   },
   {
     name: "A Buddhist Monk",
     price: 5400,
     desc: "There's no such thing as an Amish Buddhist.",
-    image: <Image src="/buddhist.webp" alt="Shoes" loading="lazy" width={705} height={953}/>,
+    image: <img src={buddhist.src} alt="Shoes" loading="lazy" width={705} height={953}/>,
   },
 ];
 
