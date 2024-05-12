@@ -64,7 +64,7 @@ export default function page() {
   return (
     <div className="flex flex-col items-center justify-center w-full py-4 gap-6">
       {product_list.map((product) => (
-        <ProductCard product={product} />
+        <ProductCard product={product} key={product.price} />
       ))}
     </div>
   );

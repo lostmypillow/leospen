@@ -38,10 +38,14 @@ jobs:
         with:
           node-version: 20
           cache: 'pnpm'
+      - name: Setup Pages
+        uses: actions/configure-pages@v4
+        with:
+            static_site_generator: next
       - name: Install dependencies
-        run: pnpm exec next build
+        run: pnpm install
       - name: Build
-        run: pnpm run build
+        run: pnpm exec next build
       - name: Setup Pages
         uses: actions/configure-pages@v3
       - name: Upload artifact

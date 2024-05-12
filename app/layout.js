@@ -14,7 +14,7 @@ export default function RootLayout({ children }) {
       <body className={league.className}>
         <div className="flex flex-col items-center justify-start w-svw h-svh py-4 px-6">
           <div className={protest.className}>
-            <h1 className="text-6xl">Leo's Pen</h1>
+            <h1 className="text-6xl">Leo&lsquo;s Pen</h1>
             <h2>Sell me this fucking pen right here</h2>
           </div>
           {children}
