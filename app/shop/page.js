@@ -38,25 +38,25 @@ const product_list = [
     name: "Pen",
     price: 1000,
     desc: "Sell me this fucking pen right here.",
-    image: <Image src="/leospen/pen.webp" alt="Shoes" loading="eager"  width={500} height={500} />,
+    image: <Image src="/pen.webp" alt="Shoes" loading="eager"  width={500} height={500} />,
   },
   {
     name: "Ketchup",
     price: 5,
     desc: "Can I get some ketchup, please?",
-    image: <Image src="/leospen/ketchup.webp" alt="Shoes" loading="lazy" width={500} height={500} />,
+    image: <Image src="/ketchup.webp" alt="Shoes" loading="lazy" width={500} height={500} />,
   },
   {
     name: "An Amish Guy",
     price: 3100,
     desc: "I'm not talking 'bout Buddhist or Amish",
-    image: <Image src="/leospen/amish.webp" alt="Shoes" loading="lazy" width={774} height={824} />,
+    image: <Image src="/amish.webp" alt="Shoes" loading="lazy" width={774} height={824} />,
   },
   {
     name: "A Buddhist Monk",
     price: 5400,
     desc: "There's no such thing as an Amish Buddhist.",
-    image: <Image src="/leospen/buddhist.webp" alt="Shoes" loading="lazy" width={705} height={953}/>,
+    image: <Image src="/buddhist.webp" alt="Shoes" loading="lazy" width={705} height={953}/>,
   },
 ];
 
