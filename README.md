@@ -1,37 +1,39 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
-<a href="https://www.freepik.com/free-psd/felt-tip-pen-isolated-transparent-background_91613300.htm#query=pen&position=2&from_view=keyword&track=sph&uuid=2347a1ae-b10a-41cd-88fd-4e6e1ff3a9c7">Image by tohamina</a> on Freepik
-<a href="https://www.freepik.com/free-psd/ketchup-bottle-isolated-transparent-background_135016969.htm">Image by tohamina</a> on Freepik
-## Getting Started
+# Leo's Pen
+Sell Leonardo this pen
+[Context Clip](https://www.youtube.com/watch?v=9UspZGJ-TrI&t=3s&pp=ygUQc2VsbCBtZSB0aGlzIHBlbg%3D%3D)
+[Demo](https://lostmypillow.github.io/leospen)
 
-First, run the development server:
+
+## Tech Stack
+**NextJS** with **React(JavaScript)**, styled with **TailwindCSS**
+
+
+## Recreate this Project
 
 ```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+corepack enable && pnpm install
+pnpm run dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## Frontend Concepts Used
+- Routing
+- I'm not done with this site yet
 
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+## What's this for?
+This is just an intermediate fun project before I move on to making actual shopping websites, tentatively named "JShop".
 
-## Learn More
 
-To learn more about Next.js, take a look at the following resources:
+## Future for this Project
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+### Django Backend
+It's better to store data like prices on the backend, where people can't just modify the HTML tags of the prices and buy the items for cheap.
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+### Storing cart items in LocalStorage
+Planning to use LocalStorage (and not clunky state menagement libraries like Redux) to save the state of the shopping cart.
 
-## Deploy on Vercel
+### Dark Mode
+Self explanatory.
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+## Credits
+[Pen Image](https://www.freepik.com/free-psd/felt-tip-pen-isolated-transparent-background_91613300.htm#query=pen&position=2&from_view=keyword&track=sph&uuid=2347a1ae-b10a-41cd-88fd-4e6e1ff3a9c7) and [Ketchuo Image](https://www.freepik.com/free-psd/ketchup-bottle-isolated-transparent-background_135016969.htm) by tohamina
