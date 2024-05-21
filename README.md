@@ -9,6 +9,7 @@ Sell Leonardo this pen
 
 ## Tech Stack
 **NextJS** with **React(JavaScript)**, styled with **TailwindCSS**
+All images are in the efficient WEBP format.
 
 
 ## Recreate this Project
@@ -17,6 +18,10 @@ Sell Leonardo this pen
 corepack enable && pnpm install
 pnpm run dev
 ```
+
+## Why PNPM?
+
+It's faster than NPM
 
 ## Frontend Concepts Used
 - Routing
